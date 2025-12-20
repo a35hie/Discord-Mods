@@ -50,13 +50,5 @@ https://dmods.asboy2035.com/SemiOpaqueMain.css
 ```
 
 ---
-
-![Discord 26](/screenshots/Discord-26.png)
-Inspired by macOS 26. Uses lots of pills. Contains glass!
-```
-https://dmods.asboy2035.com/Discord26.css
-```
-
----
 Notice: I am not connected to or affiliated with personally to Discord nor Vencord. 
 Use client mods at your own risk.

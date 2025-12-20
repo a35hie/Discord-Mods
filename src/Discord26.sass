@@ -1,75 +1,13 @@
-:root
-  --maxRadius: 1.75rem
-
-// Pills, Increased corner radius
-.topPill_aa8da2 .item_aa8da2,
-.wrapper__3412a, .searchBar__5ec2f,
-button[type="button"],
-.container_e45859,
-.channelTextArea_f75fb0, .channelTextArea_f75fb0 .scrollableContainer__74017 .themedBackground__74017, .channelTextArea_f75fb0 .button__24af7,
-.wrapper__2ea32,
-.wrapper__6e9f8,
-.circleIconButton__5bc7e,
-button[type="submit"],
-div[role="dialog"], div[role="dialog"] > div,
-.navItem__551b0, .item_aa8da2,
-.folderGroupBackground__48112,
-div[data-mana-component="modal"]
-  border-radius: var(--maxRadius) !important
-  overflow: hidden
-
-// Glass Effect
-.topPill_aa8da2 .item_aa8da2::after,
-.wrapper__3412a::after,
-.interactiveSelected__972a0::after,
-button[type="button"]::after,
-.circleIconButton__5bc7e::after,
-button[type="submit"]::after,
-div[role="dialog"] > div::after,
-.folderGroupBackground__48112::after,
-.actionButton_f8fa06::after
-  content: ""
-  position: absolute
-  top: 0
-  bottom: 0
-  left: 0
-  right: 0
-  border: var(--control-text-primary-default) 0.1rem solid
-  border-radius: 1.75rem
-  opacity: 0.2
-  mask: conic-gradient(from -45deg, black, rgba(0, 0, 0, 0.1), black, rgba(0, 0, 0, 0.1), black)
-  pointer-events: none
-
-// Main Content
-.container__133bf::after,
-.content_f75fb0::after,
-.container_d08938::after,
-.sidebarList_c48ade
-  border-top-left-radius: 1.5rem
-
-// Navigation
-.tabBar__133bf > .item__133bf
-  margin: 0 0.25rem
-.navItem__551b0
-  padding: 0.75rem
-
-// Context Menu
-.menu_c1e9c4
-  border-radius: 1.75rem !important
-.item_c1e9c4
-  border-radius: var(--maxRadius) !important
-
-
-// Inner Content
-.inner_c0bea0
-  border-radius: calc(var(--maxRadius) - 0.25rem) !important
-
-// Friends List
-.peopleListItem_cc6179
-  border-radius: var(--maxRadius) !important
-.peopleListItem_cc6179 > .listItemContents_fc004c
-  margin: 0 0.5rem
-.userInfo__0a06e
-  align-items: center
-.actionButton_f8fa06
-  position: relative
+// (Deprecated) Discord 26
+body::after
+  position: fixed
+  top: 1rem
+  right: 1rem
+  display: flex
+  content: "Theme: 'Discord 26' is deprecated. Please remove it from your Vencord/BetterDiscord themes."
+  color: var(--header-primary)
+  background: var(--background-base-low)
+  z-index: 99999
+  padding: 1.5rem 2rem
+  border: var(--text-tertiary) 0.1rem solid
+  border-radius: 1.5rem
