@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7db162f8-5c1f-498c-8775-e74a3dea33d6" name="Changes" comment="Brand-new images, README">
+    <list default="true" id="7db162f8-5c1f-498c-8775-e74a3dea33d6" name="Changes" comment="fix semiOpaqueMain screenshot being system fonts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +145,8 @@
       <workItem from="1761041542554" duration="1459000" />
       <workItem from="1761043116880" duration="4232000" />
       <workItem from="1761056316608" duration="54000" />
-      <workItem from="1761056624136" duration="3352000" />
+      <workItem from="1761056624136" duration="3998000" />
+      <workItem from="1761060900372" duration="811000" />
     </task>
     <task id="LOCAL-00001" summary="new readme">
       <option name="closed" value="true" />
@@ -227,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761059371314</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix semiOpaqueMain screenshot being system fonts">
+      <option name="closed" value="true" />
+      <created>1761060222161</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1761060222161</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +253,7 @@
     <MESSAGE value="deprecate macOSBorder.sass" />
     <MESSAGE value="fix readme issue" />
     <MESSAGE value="Brand-new images, README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Brand-new images, README" />
+    <MESSAGE value="fix semiOpaqueMain screenshot being system fonts" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix semiOpaqueMain screenshot being system fonts" />
   </component>
 </project>
