@@ -1,10 +1,10 @@
 {
-  "name": "discord-mods",
+  "name": "@a35hie/discord-mods",
   "description": "Discord CSS customization themes.",
   "author": {
-    "email": "ash@asboy2035.com",
+    "email": "ash@a35.dev",
     "name": "ash Ketchup",
-    "url": "https://asboy2035.com/"
+    "url": "https://a35hie.me/"
   },
   "type": "module",
   "private": false,

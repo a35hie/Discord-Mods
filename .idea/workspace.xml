@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AIDiffSettings">
+    <option name="showAIDiff" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7db162f8-5c1f-498c-8775-e74a3dea33d6" name="Changes" comment="more robust transparency theme v3 using variables">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Discord-26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Discord26.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Discord26.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MoreRoundedCorners-Important.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/MoreRoundedCorners-Important.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MoreRoundedCorners.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/MoreRoundedCorners.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,10 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="33" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,14 +41,77 @@
     &quot;assignee&quot;: &quot;asboy2035&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/asboy2035/Discord-Mods.git&quot;,
-    &quot;accountId&quot;: &quot;3a099e4d-a960-4419-accc-5f28f60b6a13&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/a35hie/Discord-Mods.git",
+    "accountId": "5db3f81a-86d7-49ba-bb45-7204c769975f"
   }
-}</component>
+}]]></component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="rrXQnkeS" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0022906932602185" />
+      <entry key="MS500" value="1.2967311437317415" />
+      <entry key="S2" value="2.351772453609437" />
+      <entry key="S5" value="5.135097407185076" />
+      <entry key="S10" value="8.110384014995791" />
+      <entry key="S30" value="12.857238277254554" />
+      <entry key="S60" value="15.03047594423822" />
+      <entry key="M2" value="16.394598046972206" />
+      <entry key="M5" value="17.325615330611303" />
+      <entry key="M10" value="17.657136486641416" />
+      <entry key="M15" value="17.77014071527332" />
+      <entry key="M30" value="17.88442260736449" />
+      <entry key="H1" value="17.942048240916442" />
+      <entry key="H2" value="17.970983213201187" />
+      <entry key="H4" value="17.985481362033074" />
+      <entry key="D1" value="17.997578802639392" />
+      <entry key="W1" value="17.999654079760635" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.7286172897527887" />
+      <entry key="MS500" value="1.2154699148647108" />
+      <entry key="S2" value="2.315506018982278" />
+      <entry key="S5" value="5.105905878103937" />
+      <entry key="S10" value="8.08895634290326" />
+      <entry key="S30" value="12.84735721868238" />
+      <entry key="S60" value="15.025033936060087" />
+      <entry key="M2" value="16.39173222586668" />
+      <entry key="M5" value="17.324431226300465" />
+      <entry key="M10" value="17.65653786004488" />
+      <entry key="M15" value="17.769740148207823" />
+      <entry key="M30" value="17.884221576971147" />
+      <entry key="H1" value="17.941947537958185" />
+      <entry key="H2" value="17.970932814649967" />
+      <entry key="H4" value="17.98545615097291" />
+      <entry key="D1" value="17.997574599157886" />
+      <entry key="W1" value="17.999653479223138" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -58,9 +126,11 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
     "kotlin-language-version-configured": "true",
@@ -124,8 +194,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PS-253.29346.151" />
-        <option value="bundled-php-predefined-a98d8de5180a-0e0d91225499-com.jetbrains.php.sharedIndexes-PS-253.29346.151" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
       </set>
     </attachedChunks>
   </component>
@@ -153,6 +222,7 @@
       <workItem from="1761056624136" duration="3998000" />
       <workItem from="1761060900372" duration="811000" />
       <workItem from="1766258643192" duration="990000" />
+      <workItem from="1784554659023" duration="102000" />
     </task>
     <task id="LOCAL-00001" summary="new readme">
       <option name="closed" value="true" />
