@@ -1,7 +1,7 @@
 {
   "name": "@a35hie/discord-mods",
   "description": "Discord CSS customization themes.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "email": "ash@a35.dev",
     "name": "ash Ketchup",
@@ -9,13 +9,13 @@
   },
   "type": "module",
   "private": false,
-
   "scripts": {
-    "build": "sass src:dist --no-source-map --style=compressed",
+    "build": "sass src:dist --no-source-map --style=compressed && entrypoints create",
     "dev": "sass src:dist --watch --no-source-map",
     "clean": "rm -rf dist"
   },
   "devDependencies": {
+    "@a35hie/entrypoints": "^0.2.4",
     "sass": "^1.93.2"
   }
 }

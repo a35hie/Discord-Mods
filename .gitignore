@@ -1,4 +1,2 @@
 dist
-package-lock.json
-bun.lock
 node_modules
