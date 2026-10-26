@@ -1,6 +1,7 @@
 {
   "name": "@a35hie/discord-mods",
   "description": "Discord CSS customization themes.",
+  "version": "1.0.0",
   "author": {
     "email": "ash@a35.dev",
     "name": "ash Ketchup",

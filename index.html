@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>ash's Fonts</title>
+    <title>ash's Discord Mods</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="https://fonts.a35hie.me/PPAgrandir.css">
-    <link rel="stylesheet" href="https://fonts.a35hie.me/PPNeueMachina.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap">
   </head>
   <style>
     :root {
@@ -35,6 +33,10 @@
       }
     }
 
+    * {
+      font-family: "Nata Sans", sans-serif;
+    }
+
     body {
       display: flex;
       flex-direction: column;
@@ -46,10 +48,6 @@
       width: 100vw;
       overflow: hidden;
       margin: 0;
-    }
-
-    h1 {
-      font-family: "PP Neue Machina", sans-serif;
     }
 
     a {
@@ -67,7 +65,6 @@
       border: none;
       border-radius: var(--buttonRadius);
       background: var(--foregroundColor);
-      font-family: "PP Agrandir", sans-serif;
       font-size: medium;
       color: var(--textColor);
       padding: 0.75rem;
@@ -75,26 +72,6 @@
       transition: 0.2s ease-in-out;
       backdrop-filter: blur(2rem) saturate(150%);
       position: relative;
-    }
-
-    button::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: 0;
-
-      border-radius: var(--buttonRadius);
-      border: 0.1rem solid var(--shadowColor);
-      box-shadow: 0 0.5rem 0.5rem var(--shadowColor);
-      transition: 0.2s ease-in-out;
-      opacity: 0.1;
-    }
-
-    button:hover::after {
-      box-shadow: 0 0 0.75rem var(--shadowColor);
-      opacity: 0.3;
     }
 
     button > svg {

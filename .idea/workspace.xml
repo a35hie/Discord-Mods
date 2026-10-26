@@ -7,8 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7db162f8-5c1f-498c-8775-e74a3dea33d6" name="Changes" comment="more robust transparency theme v3 using variables">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="7db162f8-5c1f-498c-8775-e74a3dea33d6" name="Changes" comment="update to a35hie.me">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -44,7 +45,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/a35hie/Discord-Mods.git",
-    "accountId": "5db3f81a-86d7-49ba-bb45-7204c769975f"
+    "accountId": "3a099e4d-a960-4419-accc-5f28f60b6a13"
   }
 }]]></component>
   <component name="MacroExpansionManager">
@@ -56,23 +57,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0022906932602185" />
-      <entry key="MS500" value="1.2967311437317415" />
-      <entry key="S2" value="2.351772453609437" />
-      <entry key="S5" value="5.135097407185076" />
-      <entry key="S10" value="8.110384014995791" />
-      <entry key="S30" value="12.857238277254554" />
-      <entry key="S60" value="15.03047594423822" />
-      <entry key="M2" value="16.394598046972206" />
-      <entry key="M5" value="17.325615330611303" />
-      <entry key="M10" value="17.657136486641416" />
-      <entry key="M15" value="17.77014071527332" />
-      <entry key="M30" value="17.88442260736449" />
-      <entry key="H1" value="17.942048240916442" />
-      <entry key="H2" value="17.970983213201187" />
-      <entry key="H4" value="17.985481362033074" />
-      <entry key="D1" value="17.997578802639392" />
-      <entry key="W1" value="17.999654079760635" />
+      <entry key="MS100" value="1.2358714018948378" />
+      <entry key="MS500" value="2.559433420144509" />
+      <entry key="S2" value="5.198425004956365" />
+      <entry key="S5" value="6.627882795639104" />
+      <entry key="S10" value="7.262155261314954" />
+      <entry key="S30" value="8.128124275015889" />
+      <entry key="S60" value="10.476143490555874" />
+      <entry key="M2" value="14.76215299206577" />
+      <entry key="M5" value="20.178249384099598" />
+      <entry key="M10" value="22.80646320482345" />
+      <entry key="M15" value="23.802571282242322" />
+      <entry key="M30" value="24.86556745778772" />
+      <entry key="H1" value="25.423557977104565" />
+      <entry key="H2" value="25.709434441312286" />
+      <entry key="H4" value="25.854126250752362" />
+      <entry key="D1" value="25.97560521581947" />
+      <entry key="W1" value="25.99651300518947" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -94,23 +95,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.7286172897527887" />
-      <entry key="MS500" value="1.2154699148647108" />
-      <entry key="S2" value="2.315506018982278" />
-      <entry key="S5" value="5.105905878103937" />
-      <entry key="S10" value="8.08895634290326" />
-      <entry key="S30" value="12.84735721868238" />
-      <entry key="S60" value="15.025033936060087" />
-      <entry key="M2" value="16.39173222586668" />
-      <entry key="M5" value="17.324431226300465" />
-      <entry key="M10" value="17.65653786004488" />
-      <entry key="M15" value="17.769740148207823" />
-      <entry key="M30" value="17.884221576971147" />
-      <entry key="H1" value="17.941947537958185" />
-      <entry key="H2" value="17.970932814649967" />
-      <entry key="H4" value="17.98545615097291" />
-      <entry key="D1" value="17.997574599157886" />
-      <entry key="W1" value="17.999653479223138" />
+      <entry key="MS100" value="1.215652544720115" />
+      <entry key="MS500" value="2.5475278287655967" />
+      <entry key="S2" value="5.1910135676927105" />
+      <entry key="S5" value="6.6238965431817345" />
+      <entry key="S10" value="7.259930715205778" />
+      <entry key="S30" value="8.12702700643546" />
+      <entry key="S60" value="10.474791698243413" />
+      <entry key="M2" value="14.760753508139596" />
+      <entry key="M5" value="20.17733241090662" />
+      <entry key="M10" value="22.805919267454012" />
+      <entry key="M15" value="23.802187178418805" />
+      <entry key="M30" value="24.865363976290297" />
+      <entry key="H1" value="25.42345324265042" />
+      <entry key="H2" value="25.70938130798905" />
+      <entry key="H4" value="25.85409949031736" />
+      <entry key="D1" value="25.975600728641158" />
+      <entry key="W1" value="25.996512363497654" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -124,6 +125,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "CidrDebugProfileConversion": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -144,6 +146,7 @@
     "npm.build.executor": "Run",
     "npm.dev.executor": "Run",
     "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
@@ -194,7 +197,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
       </set>
     </attachedChunks>
   </component>
@@ -222,7 +226,8 @@
       <workItem from="1761056624136" duration="3998000" />
       <workItem from="1761060900372" duration="811000" />
       <workItem from="1766258643192" duration="990000" />
-      <workItem from="1784554659023" duration="102000" />
+      <workItem from="1784554659023" duration="262000" />
+      <workItem from="1784638358426" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="new readme">
       <option name="closed" value="true" />
@@ -320,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766258739572</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update to a35hie.me">
+      <option name="closed" value="true" />
+      <created>1784554915818</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1784554915818</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +352,7 @@
     <MESSAGE value="Brand-new images, README" />
     <MESSAGE value="fix semiOpaqueMain screenshot being system fonts" />
     <MESSAGE value="more robust transparency theme v3 using variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="more robust transparency theme v3 using variables" />
+    <MESSAGE value="update to a35hie.me" />
+    <option name="LAST_COMMIT_MESSAGE" value="update to a35hie.me" />
   </component>
 </project>
