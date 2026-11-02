@@ -7,11 +7,47 @@
   --radius-xl: 2.75rem !important
   --radius-xxl: 3.25rem !important
 
+// Context Menu Item
 div[role="menuitem"]
   border-radius: var(--radius-sm) !important
 
+
+// Context Menus/Modals
 div[role="menu"],
 div[role="dialog"] > div,
 ._7e549558f336cddb-itemCard,
 .e45859d60799ad7c-container
   border-radius: var(--radius-md) !important
+
+
+// Quick Reactions
+div[class*="menu_"] > div > div[class*="wrapper_"]
+  padding: 0 0 var(--radius-sm) !important
+
+div[id*="message-actions-quickreact-"] div,
+div[id*="message-quickreact-"] div
+  border-radius: var(--radius-sm) !important
+
+
+// Messages/Active Now List
+div[class*="interactive_"],
+// Friends List
+div[class*="peopleListItem_"],
+div[class*="rowButton_"]
+  border-radius: var(--radius-md) !important
+
+
+// Quick Switcher
+div[class*="container__"]:has(> div[class*="quickswitcher_"])
+  border-radius: var(--radius-lg) !important
+
+
+// Bottom-left Profile Area
+div[class*="container__"]:has(> div[class*="accountPopoutButtonWrapper__"]),
+div[class*="accountPopoutButtonWrapper__"],
+section[class*="panels__"]:has(> div[class*="container__"] > div[class*="accountPopoutButtonWrapper__"])
+  border-radius: 50rem
+
+// Profile Popout
+div[class*="themeContainer_"] > div[class*="inner_"]
+  border-radius: calc(var(--radius-md) - var(--custom-user-profile-theme-padding)) !important
