@@ -9,19 +9,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7db162f8-5c1f-498c-8775-e74a3dea33d6" name="Changes" comment="redo screenshots, clean up readme, improve rounded corners support">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/MoreRoundedCorners.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/MoreRoundedCorners.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/beegGif.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/beegGif.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/demureify.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/roundedCorners/attachment.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/roundedCorners/context.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/roundedCorners/inbox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/semiOpaqueMain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/systemFonts.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/systemFonts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/transparency.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/transparency.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MoreRoundedCorners-Important.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MoreRoundedCorners.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/MoreRoundedCorners.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Transparency.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Transparency.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,61 +57,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000058083913" />
-      <entry key="MS500" value="1.0480631485212246" />
-      <entry key="S2" value="2.8682325255601" />
-      <entry key="S5" value="6.604351259176898" />
-      <entry key="S10" value="10.39697901672534" />
-      <entry key="S30" value="15.24484114685701" />
-      <entry key="S60" value="16.97564998483513" />
-      <entry key="M2" value="18.014833730293283" />
-      <entry key="M5" value="21.817600327281816" />
-      <entry key="M10" value="32.509611216561694" />
-      <entry key="M15" value="43.28105331383194" />
-      <entry key="M30" value="66.89849921304355" />
-      <entry key="H1" value="89.40692963997296" />
-      <entry key="H2" value="105.43228721395243" />
-      <entry key="H4" value="115.06726413370627" />
-      <entry key="D1" value="124.0798714716914" />
-      <entry key="W1" value="125.72318542084916" />
+      <entry key="MS100" value="1.4413515007088695" />
+      <entry key="MS500" value="1.8899064854486285" />
+      <entry key="S2" value="3.7533003287486677" />
+      <entry key="S5" value="7.497194316062386" />
+      <entry key="S10" value="11.312287527539642" />
+      <entry key="S30" value="16.203334540543246" />
+      <entry key="S60" value="17.95252472341968" />
+      <entry key="M2" value="19.00255909824246" />
+      <entry key="M5" value="22.811652833534378" />
+      <entry key="M10" value="33.505179842688676" />
+      <entry key="M15" value="44.277120140857775" />
+      <entry key="M30" value="67.89545943781759" />
+      <entry key="H1" value="90.40489835331998" />
+      <entry key="H2" value="106.43108951923733" />
+      <entry key="H4" value="116.06661055855785" />
+      <entry key="D1" value="125.0797540103773" />
+      <entry key="W1" value="126.7231684184177" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="2.2835464416678287E-170" />
-      <entry key="S5" value="1.3913741786938486E-68" />
-      <entry key="S10" value="1.1795652498670213E-34" />
-      <entry key="S30" value="4.9042656868893416E-12" />
-      <entry key="S60" value="2.2145576729652687E-6" />
-      <entry key="M2" value="0.0014881389965205765" />
-      <entry key="M5" value="0.07397030322324591" />
-      <entry key="M10" value="0.2719748209361409" />
-      <entry key="M15" value="0.4197774770285503" />
-      <entry key="M30" value="0.6479023668953139" />
-      <entry key="H1" value="0.8049238267658095" />
-      <entry key="H2" value="0.897175471558273" />
-      <entry key="H4" value="0.9471934710281067" />
-      <entry key="D1" value="0.9909987711803803" />
-      <entry key="W1" value="0.9987091218106346" />
+      <entry key="S2" value="2.1920430482982267E-170" />
+      <entry key="S5" value="1.3687988495106642E-68" />
+      <entry key="S10" value="1.1699567724966011E-34" />
+      <entry key="S30" value="4.89091301084878E-12" />
+      <entry key="S60" value="2.2115408680032987E-6" />
+      <entry key="M2" value="0.0014871250344215506" />
+      <entry key="M5" value="0.07395013886468599" />
+      <entry key="M10" value="0.27193774814226507" />
+      <entry key="M15" value="0.419739329679967" />
+      <entry key="M30" value="0.6478729271083695" />
+      <entry key="H1" value="0.8049055392456749" />
+      <entry key="H2" value="0.8971652797816436" />
+      <entry key="H4" value="0.9471880910260873" />
+      <entry key="D1" value="0.9909978330425779" />
+      <entry key="W1" value="0.9987089867481692" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9330329971485521" />
-      <entry key="MS500" value="1.0339278584488143" />
-      <entry key="S2" value="2.8590818710609933" />
-      <entry key="S5" value="6.591600244540099" />
-      <entry key="S10" value="10.384993218836472" />
-      <entry key="S30" value="15.238392450892963" />
-      <entry key="S60" value="16.971990796695092" />
-      <entry key="M2" value="18.014339629058902" />
-      <entry key="M5" value="21.890171124174156" />
-      <entry key="M10" value="32.780053532152486" />
-      <entry key="M15" value="43.699356450625224" />
-      <entry key="M30" value="67.54526697856976" />
-      <entry key="H1" value="90.21112769057062" />
-      <entry key="H2" value="106.32904834636187" />
-      <entry key="H4" value="116.01423565617141" />
-      <entry key="D1" value="125.07083100994637" />
-      <entry key="W1" value="126.72188888039808" />
+      <entry key="MS100" value="0.8531470092558658" />
+      <entry key="MS500" value="1.7270005101525474" />
+      <entry key="S2" value="3.7044456087762256" />
+      <entry key="S5" value="7.468424985740542" />
+      <entry key="S10" value="11.292253584706094" />
+      <entry key="S30" value="16.19418073650809" />
+      <entry key="S60" value="17.94750825931355" />
+      <entry key="M2" value="19.0013839711755" />
+      <entry key="M5" value="22.883931246845915" />
+      <entry key="M10" value="33.77544898472636" />
+      <entry key="M15" value="44.69529438911578" />
+      <entry key="M30" value="68.54215237649544" />
+      <entry key="H1" value="91.20905541332067" />
+      <entry key="H2" value="107.32782910472936" />
+      <entry key="H4" value="117.01357102234168" />
+      <entry key="D1" value="126.07071166387271" />
+      <entry key="W1" value="127.7218716076679" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -133,39 +122,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "CidrDebugProfileConversion": "true",
-    "CidrDebugProfileConversion262": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/ash/IdeaProjects/Discord-Mods/screenshots",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.build.executor": "Run",
-    "npm.dev.executor": "Run",
-    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "/Users/ash/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;CidrDebugProfileConversion&quot;: &quot;true&quot;,
+    &quot;CidrDebugProfileConversion262&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ash/IdeaProjects/Discord-Mods/screenshots&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/ash/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/screenshots" />
@@ -385,6 +374,7 @@
     <MESSAGE value="update meta, index" />
     <MESSAGE value="migrate to entrypoints" />
     <MESSAGE value="add repo icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="add repo icon" />
+    <MESSAGE value="redo screenshots, clean up readme, improve rounded corners support" />
+    <option name="LAST_COMMIT_MESSAGE" value="redo screenshots, clean up readme, improve rounded corners support" />
   </component>
 </project>
