@@ -45,20 +45,20 @@ div[class*="rowButton_"]
 div[class*="container__"]:has(> div[class*="quickswitcher_"])
   border-radius: var(--radius-lg) !important
 
-
-// Bottom-left Profile Area
-div[class*="container__"]:has(> div[class*="accountPopoutButtonWrapper__"]),
-div[class*="accountPopoutButtonWrapper__"],
-section[class*="panels__"]:has(> div[class*="container__"] > div[class*="accountPopoutButtonWrapper__"])
-  border-radius: 50rem
+// Top Banners (Streamer Mode, etc.)
+div[class*="notice__"]
+  border-start-start-radius: var(--radius-md)
 
 // Profile Popout
 div[class*="themeContainer_"] > div[class*="inner_"]
   border-radius: calc(var(--radius-md) - var(--custom-user-profile-theme-padding)) !important
 
 
-// Text Input
-div[class*="channelTextArea_"]
+// Text Input, Profile Area
+div[class*="channelTextArea_"],
+div[class*="container__"]:has(> div[class*="accountPopoutButtonWrapper__"]),
+div[class*="accountPopoutButtonWrapper__"],
+section[class*="panels__"]:has(> div[class*="container__"] > div[class*="accountPopoutButtonWrapper__"])
   border-radius: var(--radius-lg) !important
 
 div[class*="attachButtonInner__"], div[class*="attachButton__"],
