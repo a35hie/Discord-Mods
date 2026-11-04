@@ -7,15 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7db162f8-5c1f-498c-8775-e74a3dea33d6" name="Changes" comment="add context menu checkbox item rounded corners">
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+    <list default="true" id="7db162f8-5c1f-498c-8775-e74a3dea33d6" name="Changes" comment="add prettier, add radio context menu item support, add vencord noti support">
+      <change afterPath="$PROJECT_DIR$/src/GlassCord.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bun.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bun.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entrypoints.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entrypoints.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MoreRoundedCorners.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/MoreRoundedCorners.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +27,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="TypeScript File" />
+        <option value="HTML File" />
+        <option value="Sass File" />
       </list>
     </option>
   </component>
@@ -62,61 +58,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.024355398202371" />
-      <entry key="MS500" value="1.5674185587554608" />
-      <entry key="S2" value="2.397964357841157" />
-      <entry key="S5" value="3.148890520501968" />
-      <entry key="S10" value="4.1579066492407355" />
-      <entry key="S30" value="5.701082706184736" />
-      <entry key="S60" value="6.527425660187666" />
-      <entry key="M2" value="10.4635656714924" />
-      <entry key="M5" value="30.58864866188263" />
-      <entry key="M10" value="56.19222775364465" />
-      <entry key="M15" value="74.49868807805137" />
-      <entry key="M30" value="109.36827111105912" />
-      <entry key="H1" value="141.3369285607495" />
-      <entry key="H2" value="164.21939436253786" />
-      <entry key="H4" value="178.10513570828698" />
-      <entry key="D1" value="191.19717538134222" />
-      <entry key="W1" value="193.59563223058515" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000957058746" />
+      <entry key="S10" value="1.0010277114487616" />
+      <entry key="S30" value="1.7095393891110062" />
+      <entry key="S60" value="5.107867124631909" />
+      <entry key="M2" value="11.2061904868023" />
+      <entry key="M5" value="18.830515899287814" />
+      <entry key="M10" value="22.562995459746045" />
+      <entry key="M15" value="24.536925506048593" />
+      <entry key="M30" value="35.94565535845548" />
+      <entry key="H1" value="73.73864419387674" />
+      <entry key="H2" value="130.51145016173777" />
+      <entry key="H4" value="181.64081561944894" />
+      <entry key="D1" value="243.7633282512945" />
+      <entry key="W1" value="256.757538592267" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="3.357087533860346E-214" />
-      <entry key="S2" value="5.952094582383626E-54" />
-      <entry key="S5" value="9.414606202721098E-22" />
-      <entry key="S10" value="6.43738436013414E-11" />
-      <entry key="S30" value="0.0012675047000807696" />
-      <entry key="S60" value="0.08670878299681577" />
-      <entry key="M2" value="0.7202835458207979" />
-      <entry key="M5" value="2.5859406587135125" />
-      <entry key="M10" value="4.056576274170724" />
-      <entry key="M15" value="4.779698013955499" />
-      <entry key="M30" value="5.7164790287943" />
-      <entry key="H1" value="6.3029344880524665" />
-      <entry key="H2" value="6.635696219408978" />
-      <entry key="H4" value="6.813626632860729" />
-      <entry key="D1" value="6.968325917140344" />
-      <entry key="W1" value="6.99545980027768" />
+      <entry key="MS500" value="6.777363917261276E-129" />
+      <entry key="S2" value="9.073298556099028E-33" />
+      <entry key="S5" value="1.524425063842591E-13" />
+      <entry key="S10" value="3.904388638241062E-7" />
+      <entry key="S30" value="0.007308883061367917" />
+      <entry key="S60" value="0.08549200583310651" />
+      <entry key="M2" value="0.2923901602877846" />
+      <entry key="M5" value="0.6114939504832891" />
+      <entry key="M10" value="0.7913930416135128" />
+      <entry key="M15" value="0.9478774878400285" />
+      <entry key="M30" value="2.0406171619394504" />
+      <entry key="H1" value="4.860661158191588" />
+      <entry key="H2" value="8.340887024868072" />
+      <entry key="H4" value="11.131309292883259" />
+      <entry key="D1" value="14.263960050960842" />
+      <entry key="W1" value="14.892365045245727" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9624050327671452" />
-      <entry key="MS500" value="1.5474827962916624" />
-      <entry key="S2" value="2.389739572310818" />
-      <entry key="S5" value="3.1445429715344075" />
-      <entry key="S10" value="4.1550791943264445" />
-      <entry key="S30" value="5.70103961650161" />
-      <entry key="S60" value="6.611874074165077" />
-      <entry key="M2" value="11.175704715047633" />
-      <entry key="M5" value="33.16084167179712" />
-      <entry key="M10" value="60.236982371371774" />
-      <entry key="M15" value="79.26871946973046" />
-      <entry key="M30" value="115.07865905004523" />
-      <entry key="H1" value="147.6363845336416" />
-      <entry key="H2" value="170.85321981892693" />
-      <entry key="H4" value="184.91779031778523" />
-      <entry key="D1" value="198.16533383320635" />
-      <entry key="W1" value="200.5910679682399" />
+      <entry key="MS100" value="0.9075191553171609" />
+      <entry key="MS500" value="0.9807790039885513" />
+      <entry key="S2" value="0.9951597218200828" />
+      <entry key="S5" value="0.998061165679167" />
+      <entry key="S10" value="1.0000577063686498" />
+      <entry key="S30" value="1.716284891432172" />
+      <entry key="S60" value="5.192093991459516" />
+      <entry key="M2" value="11.496749517075449" />
+      <entry key="M5" value="19.44056292894364" />
+      <entry key="M10" value="23.35345137954971" />
+      <entry key="M15" value="25.483962916694654" />
+      <entry key="M30" value="37.984838698136976" />
+      <entry key="H1" value="78.59718096395649" />
+      <entry key="H2" value="138.85037597779666" />
+      <entry key="H4" value="192.77077663293122" />
+      <entry key="D1" value="258.02699383330037" />
+      <entry key="W1" value="271.6498595564425" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -143,7 +139,7 @@
     "javascript.preferred.runtime.type.id": "node",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/ash/IdeaProjects/Discord-Mods/screenshots",
-    "list.type.of.created.stylesheet": "CSS",
+    "list.type.of.created.stylesheet": "Sass",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
@@ -400,6 +396,7 @@
     <MESSAGE value="improve transparency by removing extraneous transparent elements" />
     <MESSAGE value="improve transparency, rounded corners with text area support" />
     <MESSAGE value="add context menu checkbox item rounded corners" />
-    <option name="LAST_COMMIT_MESSAGE" value="add context menu checkbox item rounded corners" />
+    <MESSAGE value="add prettier, add radio context menu item support, add vencord noti support" />
+    <option name="LAST_COMMIT_MESSAGE" value="add prettier, add radio context menu item support, add vencord noti support" />
   </component>
 </project>

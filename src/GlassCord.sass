@@ -1,0 +1,44 @@
+// Server List Discovery/Create Buttons
+div[class*="circleIconButton__"],
+
+// Toolbar Items
+div[class*="backForwardButtons__"],
+div[class*="leading_"] div[class*="stack_"] div[class*="clickableContainer_"],
+div[class*="trailing_"] div[class*="clickable__"],
+div[class*="trailing_"] div[class*="chip__"]
+  --custom-bf-button-radius: var(--radius-md)
+  border-radius: var(--radius-md) !important
+
+
+// Server List Discovery/Create Buttons
+div[class*="circleIconButton__"],
+
+// Friends List Search/Profile
+div[class*="container__"]:has(> div[class*="accountPopoutButtonWrapper__"]),
+div[class*="addFriend__"], div[class*="themed_"][class*="selected_"],
+div[class*="searchBar_"] button,
+div[class*="searchBar__"] div[class*="wrapper__"],
+
+// Selected Channels/DMs
+li[class*="channel__"] div[class*="Selected"],
+li[class*="containerDefault_"][class*="selected_"] a,
+
+// Buttons
+button[class*="button_"][class*="primary_"], button[class*="button_"][class*="secondary_"],
+
+// Message Bar
+div[class*="channelTextArea_"],
+
+// Toolbar Items
+div[class*="backForwardButtons__"],
+div[class*="leading_"] div[class*="stack_"] div[class*="clickableContainer_"],
+div[class*="trailing_"] div[class*="clickable__"],
+div[class*="trailing_"] div[class*="chip__"],
+
+// Context Menus
+div[role="menu"]
+  --shadow-base: inset 1px 1.5px 1px -1px rgba(255, 255, 255, 0.2), inset -1px -1.5px 1px -1px rgba(255, 255, 255, 0.15), inset 0 4px 16px rgba(255, 255, 255, 0.025)
+  --shadow-edges: 0 0 1px rgba(255, 255, 255, 0.3)
+  --shadow-xs: var(--shadow-base), 0 4px 8px rgba(0, 0, 0, 0.1)
+  border: none
+  box-shadow: var(--shadow-xs) !important
