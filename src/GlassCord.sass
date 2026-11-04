@@ -28,9 +28,15 @@ div[class*="searchBar__"] div[class*="wrapper__"],
 // VC Buttons
 div[class*="panels__"] div[class*="actionButtons_"] button,
 
-// Selected Channels/DMs
+// Profile/Quest Top Right Buttons
+div[class*="utilButtonWrapper_"],
+div[class*="bannerButton_"],
+
+// Selected Channels/DMs/Settings
 li[class*="channel__"] div[class*="Selected"],
 li[class*="containerDefault_"][class*="selected_"] a,
+div[class*="navItem__"][class*="selected"],
+ul[data-list-id="settings-sidebar"] div[class*="active_"][aria-current="page"],
 
 // Buttons
 button[class*="button_"][class*="primary_"],
@@ -47,7 +53,14 @@ div[class*="trailing_"] div[class*="clickable__"],
 div[class*="trailing_"] div[class*="chip__"],
 
 // Context Menus
-div[role="menu"]
+div[role="menu"],
+
+// Your Profile Popout
+div[class*="accountPopout__"] div[class*="overlay_"],
+div[class*="itemCard__"],
+
+// Server Folders
+div[class*="folderIconWrapper__"]
   --shadow-base: inset 1px 1.5px 1px -1px rgba(255, 255, 255, 0.2), inset -1px -1.5px 1px -1px rgba(255, 255, 255, 0.15), inset 0 4px 16px rgba(255, 255, 255, 0.025)
   --shadow-edges: 0 0 1px rgba(255, 255, 255, 0.3)
   --shadow-xs: var(--shadow-base), 0 4px 8px rgba(0, 0, 0, 0.1)

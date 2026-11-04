@@ -25,6 +25,36 @@ div[role="dialog"] > div,
 div[class*="guildDropdown_"]
   border-radius: var(--radius-md) !important
 
+// Profile Top Right Button
+div[class*="bannerButton_"]
+  backdrop-filter: blur(.25rem)
+
+// Folder Icon
+div[class*="folderIconWrapper__"],
+
+// Vencord Warnings
+.vc-error-card,
+
+// Create Server From Template
+div[class*="templatesList_"] button[class*="container_"],
+div[class*="optionsList__"] button[class*="container_"],
+
+// Shop/Discovery Cards
+div[class*="card__"],
+div[class*="productCardContainer_"]
+  border-radius: var(--radius-md) !important
+article[class*="questTile__"]
+  border-radius: var(--radius-md) !important
+
+// Expanded Profile
+aside[class*="editingPanel__"], div[class*="profileContentOuter__"]
+  --radius-lg: var(--radius-md) !important
+
+// Discovery Tabs
+div[class*="navItem__"]
+  padding: var(--space-xs)
+  border-radius: var(--radius-md)
+
 
 // Quick Reactions
 div[class*="menu_"] > div > div[class*="wrapper_"]
