@@ -2,7 +2,6 @@
 
 A collection of home-made Discord CSS mods for the redesigned Discord desktop client.
 For full documentation, go to [my Guides page](https://guides.a35hie.me/themes/web/discordThemes).
-
 > You will need a Discord client mod to use these styles. Check out [Vencord](https://vencord.dev).
 
 

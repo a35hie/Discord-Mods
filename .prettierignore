@@ -1,0 +1,8 @@
+dist
+.idea
+node_modules
+screenshots
+README.md
+LICENSE
+.prettierignore
+bun.lock
