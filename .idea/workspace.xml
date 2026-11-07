@@ -7,12 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7db162f8-5c1f-498c-8775-e74a3dea33d6" name="Changes" comment="theme improvements">
+    <list default="true" id="7db162f8-5c1f-498c-8775-e74a3dea33d6" name="Changes" comment="fix selectors to use single _">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GlassCord.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/GlassCord.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MoreRoundedCorners.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/MoreRoundedCorners.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Transparency.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Transparency.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Big-GIF-Emoji-Sticker-Picker.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Big-GIF-Emoji-Sticker-Picker.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,61 +57,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.2527134214625857" />
-      <entry key="MS500" value="2.5884678951600897" />
-      <entry key="S2" value="5.230319822799386" />
-      <entry key="S5" value="7.588226827804407" />
-      <entry key="S10" value="9.003771132361603" />
-      <entry key="S30" value="10.254965076655878" />
-      <entry key="S60" value="10.700615567219565" />
-      <entry key="M2" value="12.451125687832826" />
-      <entry key="M5" value="21.33708868151468" />
-      <entry key="M10" value="32.729712018524765" />
-      <entry key="M15" value="42.68633457486452" />
-      <entry key="M30" value="69.49817129849954" />
-      <entry key="H1" value="116.52838077009743" />
-      <entry key="H2" value="187.1428204129319" />
-      <entry key="H4" value="259.06427663183075" />
-      <entry key="D1" value="357.2181526258839" />
-      <entry key="W1" value="379.1648211093542" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000586918358" />
+      <entry key="S2" value="1.0646262247559195" />
+      <entry key="S5" value="2.4733125141538697" />
+      <entry key="S10" value="5.856820004430024" />
+      <entry key="S30" value="14.073275070754994" />
+      <entry key="S60" value="18.569963481803487" />
+      <entry key="M2" value="22.756062245031668" />
+      <entry key="M5" value="33.00466448390525" />
+      <entry key="M10" value="45.03433920836685" />
+      <entry key="M15" value="55.251319260057834" />
+      <entry key="M30" value="82.37275638095272" />
+      <entry key="H1" value="129.60899664678044" />
+      <entry key="H2" value="200.4155394899661" />
+      <entry key="H4" value="272.5643299690102" />
+      <entry key="D1" value="371.10381216077434" />
+      <entry key="W1" value="393.1474957928341" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="3.3771898350065462E-161" />
-      <entry key="S10" value="5.811359423582872E-81" />
-      <entry key="S30" value="1.7978739737922115E-27" />
-      <entry key="S60" value="4.240134402089965E-14" />
-      <entry key="M2" value="2.059192769839431E-7" />
-      <entry key="M5" value="0.0021416969704407874" />
-      <entry key="M10" value="0.05114741886566044" />
-      <entry key="M15" value="0.16141551704240686" />
-      <entry key="M30" value="0.7392655439103413" />
-      <entry key="H1" value="2.698767359560982" />
-      <entry key="H2" value="6.256367470118214" />
-      <entry key="H4" value="9.904375997697498" />
-      <entry key="D1" value="14.752689742491297" />
-      <entry key="W1" value="15.815114114958906" />
+      <entry key="S5" value="1.45123330120723E-163" />
+      <entry key="S10" value="3.809505612552933E-82" />
+      <entry key="S30" value="7.249190944233983E-28" />
+      <entry key="S60" value="2.692432162230187E-14" />
+      <entry key="M2" value="1.6408904147974787E-7" />
+      <entry key="M5" value="0.0019557397000924304" />
+      <entry key="M10" value="0.048876515514527805" />
+      <entry key="M15" value="0.15660163477137876" />
+      <entry key="M30" value="0.7281585774787559" />
+      <entry key="H1" value="2.6784170527480358" />
+      <entry key="H2" value="6.232734473093224" />
+      <entry key="H4" value="9.885651749641749" />
+      <entry key="D1" value="14.748037743796294" />
+      <entry key="W1" value="15.814401587895997" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.4855826555373394" />
-      <entry key="MS500" value="2.3290298875580944" />
-      <entry key="S2" value="5.151787087220657" />
-      <entry key="S5" value="7.552798722788958" />
-      <entry key="S10" value="8.984824021450013" />
-      <entry key="S30" value="10.248279576080769" />
-      <entry key="S60" value="10.697207619131321" />
-      <entry key="M2" value="12.449297452824439" />
-      <entry key="M5" value="21.338206833471233" />
-      <entry key="M10" value="32.77988599391714" />
-      <entry key="M15" value="42.846620288028774" />
-      <entry key="M30" value="70.23598129848845" />
-      <entry key="H1" value="119.22528491600406" />
-      <entry key="H2" value="193.3972919366851" />
-      <entry key="H4" value="268.96721434296586" />
-      <entry key="D1" value="371.97049383583715" />
-      <entry key="W1" value="394.97988201871266" />
+      <entry key="MS100" value="0.5471468506303697" />
+      <entry key="MS500" value="0.8863817553640073" />
+      <entry key="S2" value="1.034394903283371" />
+      <entry key="S5" value="2.4565757755292705" />
+      <entry key="S10" value="5.842622848777097" />
+      <entry key="S30" value="14.063608490295891" />
+      <entry key="S60" value="18.56378235495056" />
+      <entry key="M2" value="22.752442504312846" />
+      <entry key="M5" value="33.00478025459342" />
+      <entry key="M10" value="45.08182588820599" />
+      <entry key="M15" value="55.40651680815022" />
+      <entry key="M30" value="83.09932650501644" />
+      <entry key="H1" value="132.28548694817195" />
+      <entry key="H2" value="206.64634633505412" />
+      <entry key="H4" value="282.44852671700306" />
+      <entry key="D1" value="385.85149824117735" />
+      <entry key="W1" value="408.96184371451886" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -125,40 +122,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "CidrDebugProfileConversion": "true",
-    "CidrDebugProfileConversion262": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/ash/IdeaProjects/Discord-Mods/screenshots",
-    "list.type.of.created.stylesheet": "Sass",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.build.executor": "Run",
-    "npm.dev.executor": "Run",
-    "npm.format.executor": "Run",
-    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "/Users/ash/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;CidrDebugProfileConversion&quot;: &quot;true&quot;,
+    &quot;CidrDebugProfileConversion262&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ash/IdeaProjects/Discord-Mods/screenshots&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;Sass&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.format.executor&quot;: &quot;Run&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/ash/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/screenshots" />
@@ -378,7 +375,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new readme" />
     <MESSAGE value="add index page, new screenshots" />
     <MESSAGE value="fix popups being transparent too" />
     <MESSAGE value="add discord 26" />
@@ -403,6 +399,7 @@
     <MESSAGE value="in glasscord, improve toolbar button sizing" />
     <MESSAGE value="improve profile widget, vc support in glass and rounded corners" />
     <MESSAGE value="theme improvements" />
-    <option name="LAST_COMMIT_MESSAGE" value="theme improvements" />
+    <MESSAGE value="fix selectors to use single _" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix selectors to use single _" />
   </component>
 </project>
