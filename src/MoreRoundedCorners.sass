@@ -89,11 +89,14 @@ div[class*="themeContainer_"] > div[class*="inner_"]
 
 
 // Text Input, Profile Area
-div[class*="channelTextArea_"],
 div[class*="container_"]:has(> div[class*="accountPopoutButtonWrapper_"]),
-div[class*="accountPopoutButtonWrapper_"],
-section[class*="panels_"]:has(> div[class*="container_"] > div[class*="accountPopoutButtonWrapper_"])
+div[class*="accountPopoutButtonWrapper_"]
   border-radius: var(--radius-lg) !important
+
+section[class*="panels_"]:has(> div[class*="container_"] > div[class*="accountPopoutButtonWrapper_"]),
+div[class*="channelTextArea_"]
+  border-radius: min(1.75rem, var(--radius-lg)) !important
+
 
 div[class*="attachButtonInner_"], div[class*="attachButton_"],
 div[class*="channelTextArea_"] div[class*="buttons_"] > div,
