@@ -1,7 +1,7 @@
 {
   "name": "@a35hie/discord-mods",
   "description": "Discord CSS customization themes.",
-  "version": "1.5.2",
+  "version": "1.6.0",
   "author": {
     "email": "ash@a35.dev",
     "name": "ash Ketchup",
@@ -11,7 +11,7 @@
   "private": false,
   "scripts": {
     "build": "sass src:dist --no-source-map --style=compressed && entrypoints create",
-    "dev": "sass src:dist --watch --no-source-map",
+    "dev": "sass src:dev --watch",
     "clean": "rm -rf dist",
     "format": "prettier --write --experimental-cli --ignore-path .prettierignore ."
   },
