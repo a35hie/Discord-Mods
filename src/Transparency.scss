@@ -7,8 +7,8 @@ div[class*='channelTextArea_z_'] > * {
   background: transparent !important;
 }
 
-// Nitro Custom Theme Support
-html.custom-client-theme
+// Nitro Themes + Custom Theme Support
+html.custom-theme-background
   :is(
     div[class*='bg_'],
     div[class*='tree_'],
