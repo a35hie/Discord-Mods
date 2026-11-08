@@ -7,6 +7,30 @@ div[class*='channelTextArea_z_'] > * {
   background: transparent !important;
 }
 
+// Tab Bar
+// Notifications Icon
+div[class*="bar_"] div[class*="leading_"] div[data-align="stretch"] {
+  align-items: center !important;
+  width: fit-content !important;
+}
+
+// Tab Bar
+div[class*="bar_"] div[class*="leading_"] div[class*="tabBar_"] {
+  background: transparent !important;
+
+  // Tab Padding
+  div[class*="tab_"] {
+    margin-top: 0.1rem;
+    height: calc(var(--custom-app-top-bar-height) - 0.2rem);
+  }
+
+  // Transparency
+  div[class*="tab_"]:not([class*="tabActive_"]),
+  div[class*="tab_"] span[class*="channelNameFade_"] {
+    background: transparent !important;
+  }
+}
+
 // Nitro Themes + Custom Theme Support
 html.custom-theme-background
   :is(
