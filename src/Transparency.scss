@@ -70,3 +70,7 @@ div[class*='sidebar_'] {
   --chat-background-default: transparent !important;
   --__header-bar-background: transparent !important;
 }
+
+div[class*="itemCard_"] {
+  --background-base-low: transparent !important;
+}
