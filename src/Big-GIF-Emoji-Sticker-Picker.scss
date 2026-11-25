@@ -1,0 +1,10 @@
+// Bigger Emoji/GIF/Sticker Picker v3
+// Updated with improved targeting
+
+div[class*='expressionPickerPositionLayer_'] div[class*='contentWrapper_'] {
+  width: calc(100vw - 2rem) !important;
+  height: 90vh !important;
+  left: 1rem !important;
+  bottom: 1rem !important;
+  position: fixed !important;
+}

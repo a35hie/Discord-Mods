@@ -1,10 +1,11 @@
 // Demure-ify non-transparent items to make them match the background better
 .searchBar__5ec2f,
-.channelTextArea_f75fb0, 
-.channelTextArea__74017, 
+.channelTextArea_f75fb0,
+.channelTextArea__74017,
 .scrollableContainer__74017,
 .panels_c48ade,
-.interactive_bf1984, .itemCard__7e549,
+.interactive_bf1984,
+.itemCard__7e549,
 .actionButton_f8fa06,
 .circleIconButton__5bc7e,
 .childWrapperNoHoverBg__6e9f8,
@@ -12,5 +13,7 @@
 .mainTableContainer__09a38,
 .embedWrapper_b7e1cb,
 .card_f369db,
-.member_c8ffbb, .member__5d473
-  background-color: var(--input-background) !important
+.member_c8ffbb,
+.member__5d473 {
+  background-color: var(--input-background) !important;
+}

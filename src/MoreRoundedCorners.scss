@@ -1,0 +1,147 @@
+// More Rounded Corners v3 with Variables
+:root,
+div,
+button,
+a,
+* {
+  --radius-xs: 0.75rem !important;
+  --radius-sm: 1rem !important;
+  --radius-md: 1.5rem !important;
+  --radius-lg: 2.25rem !important;
+  --radius-xl: 2.75rem !important;
+  --radius-xxl: 3.25rem !important;
+}
+
+// Context Menu Items
+div[role='menuitem'],
+div[role='menuitemcheckbox'],
+div[role='menuitemradio'] {
+  border-radius: var(--radius-sm) !important;
+}
+
+// Context Menus/Modals
+div[role='menu'],
+div[role='dialog'] > div,
+._7e549558f336cddb-itemCard,
+.e45859d60799ad7c-container,
+// Vencord Notifications
+.vc-notification-root,
+// Guild Settings
+div[class*='guildDropdown_'],
+// Tab Bar
+div[class*='bar_'] div[class*='leading_'] div[class*='tabBar_'] div[class*='tab_'][class*='tabActive_'] {
+  border-radius: var(--radius-md) !important;
+}
+
+// Profile Top Right Button
+div[class*='bannerButton_'] {
+  backdrop-filter: blur(0.25rem);
+}
+
+// Folder Icon
+div[class*='folderIconWrapper_'],
+
+// Vencord Warnings
+.vc-error-card,
+
+// Create Server From Template
+div[class*='templatesList_'] button[class*='container_'],
+div[class*='optionsList_'] button[class*='container_'],
+
+// Shop/Discovery Cards
+div[class*='card_'],
+div[class*='productCardContainer_'] {
+  border-radius: var(--radius-md) !important;
+}
+article[class*='questTile_'] {
+  border-radius: var(--radius-md) !important;
+}
+
+// Expanded Profile
+aside[class*='editingPanel_'],
+div[class*='profileContentOuter_'] {
+  --radius-lg: var(--radius-md) !important;
+}
+
+// Discovery Tabs
+div[class*='navItem_'] {
+  padding: var(--space-xs);
+  border-radius: var(--radius-md);
+}
+
+// Quick Reactions
+div[class*='menu_'] > div > div[class*='wrapper_'] {
+  padding: 0 0 var(--radius-sm) !important;
+}
+
+div[id*='message-actions-quickreact-'] div,
+div[id*='message-quickreact-'] div {
+  border-radius: var(--radius-sm) !important;
+}
+
+// Reaction Picker
+#emoji-picker-tab-panel,
+#emoji-picker-tab-panel::before {
+  border-radius: var(--radius-md) !important;
+}
+
+#emoji-picker-tab-panel {
+  div[class*='header_'] {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  div[class*='emojiPicker_'] {
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+  }
+}
+
+// Messages/Active Now List
+div[class*='interactive_'],
+// Friends List
+div[class*='peopleListItem_'],
+div[class*='rowButton_'] {
+  border-radius: var(--radius-md) !important;
+}
+
+// Quick Switcher
+div[class*='container_']:has(> div[class*='quickswitcher_']) {
+  border-radius: var(--radius-lg) !important;
+}
+
+// Top Banners (Streamer Mode, etc.)
+div[class*='notice_'] {
+  border-start-start-radius: var(--radius-md);
+}
+
+// Profile Popout
+div[class*='themeContainer_'] > div[class*='inner_'] {
+  border-radius: calc(
+    var(--radius-md) - var(--custom-user-profile-theme-padding)
+  ) !important;
+}
+
+// Text Input, Profile Area
+div[class*='container_']:has(> div[class*='accountPopoutButtonWrapper_']),
+div[class*='accountPopoutButtonWrapper_'] {
+  border-radius: var(--radius-lg) !important;
+}
+
+section[class*='panels_']:has(
+    > div[class*='container_'] > div[class*='accountPopoutButtonWrapper_']
+  ),
+div[class*='channelTextArea_'] {
+  border-radius: min(1.75rem, var(--radius-lg)) !important;
+}
+
+div[class*='attachButtonInner_'],
+div[class*='attachButton_'],
+div[class*='channelTextArea_'] div[class*='buttons_'] > div,
+div[class*='channelTextArea_'] div[class*='buttons_'] > div > div {
+  border-radius: var(--radius-sm) !important;
+}
+
+// GIF Picker
+div[class*='drawerSizingWrapper_'] div[class*='contentWrapper_'] {
+  border-radius: var(--radius-md) !important;
+}

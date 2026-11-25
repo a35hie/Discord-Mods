@@ -1,0 +1,22 @@
+// Semi-Opaque Main v2
+
+div[class*='channelArea_'],
+main[class*='container_'],
+div[class*='page_'] {
+  position: relative;
+  z-index: 0;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-surface-high);
+    border-top-left-radius: var(--radius-md);
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.4;
+  }
+}
